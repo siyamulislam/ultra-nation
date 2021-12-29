@@ -2,11 +2,7 @@ import React from 'react';
 
 const Country = (props) => {
     const {name, population,region, flag,flags,coatOfArms,area,startOfWeek,capital} = props.country;
-     //console.log(props.country.name.nativeName);
-    // console.log(flag+ " "+name.common);
-    //console.log(props.country.name.common); 
     const handleAddCountry = props.handleAddCountry;
-     
     const flagStyle = {height:'50px'}
     const countryStyle = {backgroundColor:'#e7edf5', border: '1px solid red', margin:'10px', padding:'10px'}
      
